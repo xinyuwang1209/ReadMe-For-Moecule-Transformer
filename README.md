@@ -1,10 +1,14 @@
 # ReadMe-For-Moecule-Transformer
 
 ### Installation
-#### An environment config is provided in this repository. You can create the environment from the file
-`conda env create -f env.yml `
+#### An environment config `moses.yml` is provided in this repository. You can create the environment from the file
+`$ conda env create -f moses.yml `
 #### then activate the environment
-`conda activate moses`
+`$ conda activate moses`
+
+### Before training
+#### First cd to the directory of the downloaded code:
+`$ `
 
 ### Training
 `python scripts/train.py --size_batch=256 --model_type=AMG --dim_attention=768 --n_heads=4 --n_layers=12 --load_pretrain=0 --epochs=20`

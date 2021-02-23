@@ -15,7 +15,7 @@ First cd to the directory of the downloaded code:
 
 `$ cd $code`
 
-Create the directory for storing the models.
+Create the directory used to the models.
 
 `$ mkdir dir_save`
 
